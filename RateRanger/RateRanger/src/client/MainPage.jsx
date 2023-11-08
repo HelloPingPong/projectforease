@@ -33,34 +33,6 @@ const MainPage = () => {
             <span>Business Considerations</span>
           </button>
         </div>
-
-        {/* <div className="buttons">
-          <a
-            className="button button-filled"
-            href="https://wasp-lang.dev/docs/tutorial/create"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Search a New Lane
-          </a>
-          <a
-            className="button button-documentation"
-            href="https://discord.com/invite/rzdnErX"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            Read the Documentation
-          </a>
-          <a
-            className="button button-outline"
-            href="https://discord.com/invite/rzdnErX"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            History Comparison
-          </a>
-          
-        </div> */}
       </main>
     </div>
   )
