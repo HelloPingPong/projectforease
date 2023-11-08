@@ -1,0 +1,17 @@
+app RateRanger {
+  wasp: {
+    version: "^0.11.5"
+  },
+  title: "RateRanger",
+  
+}
+
+route RootRoute { path: "/", to: MainPage }
+page MainPage {
+  component: import Main from "@client/MainPage.jsx"
+}
+
+route TechnicalRoute { path: "/Technical", to: TechnicalPage }
+page TechnicalPage {
+  component: import TechnicalPage from "@client/TechnicalPage/TechnicalPage.jsx"
+}
